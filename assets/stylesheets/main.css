@@ -1,0 +1,230 @@
+/*
+  ========================================
+  Custom
+  ========================================
+*/
+
+body {
+	border: 1px solid #333;
+	font-family: georgia,"times new roman", times, serif;
+	background-color: #ecf0f1;
+}
+
+.large-word {
+	font-size: 2.25em;
+}
+
+.refrence  a {
+	display: block;
+}
+
+h2 {
+	padding-bottom: .5em;
+	color: #333;
+	border-bottom: 2px solid #333;
+}
+
+
+/*
+  ========================================
+  section
+  ========================================
+*/
+
+section {
+	margin: 1em;
+  	padding: 1em;
+  	border: 1px solid #bdc3c7;
+	
+}
+
+section h1,
+h3,
+h2,
+p {
+	color: #333;
+}
+
+img {
+	display: inline-block;
+	float: left;
+	height: 300px;
+	padding-right: 1em;
+
+}
+
+h1 {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+section > p {
+	text-align: justify;
+	line-height: 150%;
+}
+
+.more {
+	text-align: center;
+}
+
+/*
+  ========================================
+  Table
+  ========================================
+*/
+
+table {
+	margin: 0 auto;
+  	padding: 1em;
+}
+
+td, th {
+	border-bottom: .5px solid #bdc3c7;
+	line-height: 150%;
+}
+
+th {
+	padding-right: .5em;
+}
+
+/*
+  ========================================
+  Container class
+  ========================================
+*/
+
+.container {
+	margin-bottom: 1em;
+	padding: 1em;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container img {
+	height: 200px;
+	display: inline-block;
+	float: left;
+	padding-right: 1em;
+}
+
+.container p {
+	text-align: justify;
+}
+
+
+/*
+  ========================================
+  Signature
+  ========================================
+*/
+
+.sign {
+	font-style: italic;
+	line-height: 150%;
+	text-align: center;
+}
+
+#sign {
+	height: 50px;
+	float: none;
+	display: block;
+	margin: auto;
+}
+
+/*
+  ========================================
+  Button
+  ========================================
+*/
+
+.btn {
+	background-color: transparent;
+	text-decoration: none;
+  	display: inline-block;
+  	margin: 2em;
+  	padding: .75em 1.75em;
+  	color: #333;
+  	border: 1px solid #333;
+  	border-radius: 0px;
+
+  	/* Smooth Hover */
+  	-webkit-transition-duration: .5s;
+  	   -moz-transition-duration: .5s;
+  			transition-duration: .5s;
+
+    -webkit-transition-timing-function: ease-in;
+       -moz-transition-timing-function: ease-in;
+  			transition-timing-function: ease-in;
+}
+
+.btn:hover {
+	padding: .75em 2.25em;
+  	background-color: #333;
+  	color: #ecf0f1;
+
+   	/* Smooth Hover */
+  	-webkit-transition-duration: .5s;
+  	   -moz-transition-duration: .5s;
+  			transition-duration: .5s;
+
+    -webkit-transition-timing-function: ease-in;
+       -moz-transition-timing-function: ease-in;
+  			transition-timing-function: ease-in;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+
+	background-color: #333;
+}
+
+footer p {
+	color: #bdc3c7;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+footer ul {
+	padding: 0;
+	margin: 0;
+}
+
+footer li {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 3em;
+	padding: .2em;
+	margin: .5em;
+	vertical-align: top;
+	
+}
+
+footer i {
+	color: #bdc3c7;
+}
+
+footer i:hover {
+	color: #ecf0f1;
+	/* Smooth Hover */
+  	-webkit-transition-duration: .5s;
+  	   -moz-transition-duration: .5s;
+  			transition-duration: .5s;
+
+    -webkit-transition-timing-function: ease-in;
+       -moz-transition-timing-function: ease-in;
+  			transition-timing-function: ease-in;
+}
+
+
+
