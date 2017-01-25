@@ -56,17 +56,9 @@ img {
 a > img:hover {
 	
 	/* Smooth box shadow with browser rendering*/
-	-webkit-filter: drop-shadow(5px 5px 7px #333);
-	   -moz-filter: drop-shadow(5px 5px 7px #333);
-	        filter: drop-shadow(5px 5px 7px #333);
-
-	-webkit-transition-duration: .3s;
-  	   -moz-transition-duration: .3s;
-         	transition-duration: .3s;
-
-    -webkit-transition-timing-function: ease-in;
-       -moz-transition-timing-function: ease-in;
-  	    transition-timing-function: ease-in;
+        filter: drop-shadow(5px 5px 7px #333);
+       	transition-duration: .3s;
+  	transition-timing-function: ease-in;
 
 }
 
